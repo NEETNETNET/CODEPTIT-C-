@@ -5,11 +5,9 @@ int main() {
 	int t;
 	cin >> t;
 	while(t--){
-		long long n;
+		char n;
 		cin >> n;
-		cout << (n+1)*n/2 << endl;
+		if(n>=65&&n<=90) cout <<(char) (n + 32)<<endl ;
+		else cout <<(char) (n - 32) <<endl;
 	}
-
-
-
 }
